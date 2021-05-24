@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My ibibo Test AUtomation regression Suite" duration-ms="67221" started-at="2021-05-22T05:28:55Z" finished-at="2021-05-22T05:30:02Z">
+    <groups>
+    </groups>
+    <test name="ibibo LoginPage test" duration-ms="66244" started-at="2021-05-22T05:28:55Z" finished-at="2021-05-22T05:30:01Z">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@e2cbe0]" name="setUp" is-config="true" duration-ms="34082" started-at="2021-05-21T22:28:55Z" finished-at="2021-05-21T22:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@e2cbe0]" name="verifyLogoTest" duration-ms="4409" started-at="2021-05-21T22:29:30Z" finished-at="2021-05-21T22:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@e2cbe0]" name="verifyLoginPageTitleTest" duration-ms="3218" started-at="2021-05-21T22:29:34Z" finished-at="2021-05-21T22:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@e2cbe0]" name="loginTest" duration-ms="21253" started-at="2021-05-21T22:29:38Z" finished-at="2021-05-21T22:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@e2cbe0]" name="tearDown" is-config="true" duration-ms="2339" started-at="2021-05-21T22:29:59Z" finished-at="2021-05-21T22:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+    </test> <!-- ibibo LoginPage test -->
+    <test name="ibibo Home test" duration-ms="67188" started-at="2021-05-22T05:28:55Z" finished-at="2021-05-22T05:30:02Z">
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@101b7af]" name="setUp" is-config="true" duration-ms="58913" started-at="2021-05-21T22:28:55Z" finished-at="2021-05-21T22:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyManageLinkTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@101b7af]" name="verifyManageLinkTest" duration-ms="4676" started-at="2021-05-21T22:29:54Z" finished-at="2021-05-21T22:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManageLinkTest -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@101b7af]" name="verifyHomePageTitleTest" duration-ms="90" started-at="2021-05-21T22:29:59Z" finished-at="2021-05-21T22:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@101b7af]" name="tearDown" is-config="true" duration-ms="3501" started-at="2021-05-21T22:29:59Z" finished-at="2021-05-21T22:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </test> <!-- ibibo Home test -->
+  </suite> <!-- My ibibo Test AUtomation regression Suite -->
+</testng-results>

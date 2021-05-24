@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My ibibo Test AUtomation regression Suite" thread-count="2" parallel="tests" verbose="3">
+  <test name="ibibo LoginPage test">
+    <classes>
+      
+     <class name="com.qa.hubspot.tests.LoginPageTest"/>
+      
+    </classes>
+  </test>
+  
+  <test name="ibibo Home test">
+    <classes>
+     
+      <class name="com.qa.hubspot.tests.HomePageTest"/>
+    
+    </classes>
+  </test>  
+</suite> 
+
